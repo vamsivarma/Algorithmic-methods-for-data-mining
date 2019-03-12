@@ -1,0 +1,132 @@
+python -m pip install pymongo
+python -m pip install BeautifulSoup4
+
+python --version 
+python -m pip list
+
+
+#For installing MongoDB on local machine
+#https://docs.mongodb.com/v2.8/tutorial/install-mongodb-on-windows/
+#https://www.mongodb.com/download-center#community - Downloads page
+
+#https://scalegrid.io/blog/getting-started-with-python-and-mongodb-2/ - setting up mongo DB in our local machine
+
+
+Using mongo db - 
+
+mongo --version - to check if mongo db is installed in the local machine
+mongod - to start the mongo data base server
+mongo - to run mongo commads
+
+
+show dbs - get the list of databases created in the mongo server
+
+db.collection_name.drop()
+
+#Reference links for Mongo DB
+https://docs.mongodb.com/manual/reference/method/db.collection.remove/
+
+https://realpython.com/blog/python/introduction-to-mongodb-and-python/ - Very useful resource for PyMongo
+
+http://api.mongodb.com/python/current/tutorial.html
+
+https://docs.mongodb.com/manual/indexes/ - Indexing using Mongo DB
+
+#Pymongo commands - 
+client.database_names()
+db.collection_names()
+db.mydb.find_one() - First document of a given collection
+db.collection_names(include_system_collections=False)
+
+
+
+
+#Useful links for web scrapping
+
+https://www.dataquest.io/blog/web-scraping-tutorial-python/
+
+https://www.digitalocean.com/community/tutorials/how-to-scrape-web-pages-with-beautiful-soup-and-python-3
+
+http://docs.python-guide.org/en/latest/scenarios/scrape/
+
+http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/
+
+https://scrapy.org/ - Web scrapping framework
+
+https://www.analyticsvidhya.com/blog/2015/10/beginner-guide-web-scraping-beautiful-soup-python/
+
+https://www.analyticsvidhya.com/blog/2017/07/web-scraping-in-python-using-scrapy/
+
+
+#To install scrapy - 
+conda install -c conda-forge scrapy
+
+
+#Useful resources for histograms - 
+https://plot.ly/matplotlib/histograms/
+
+
+http://api.mongodb.com/python/current/tutorial.html
+https://docs.mongodb.com/manual/indexes/
+https://code.tutsplus.com/tutorials/full-text-search-in-mongodb--cms-24835
+https://www.mongodb.com/blog/post/integrating-mongodb-text-search-with-a-python-app
+
+
+#Python Jupiter Notebooks
+http://localhost:8888/notebooks/COSINE.ipynb
+
+
+#Useful link for building Word Clouds using Python
+http://peekaboo-vision.blogspot.it/2012/11/a-wordcloud-in-python.html
+
+#Performance optimization Mongo DB
+https://stackoverflow.com/questions/9858393/limits-of-number-of-collections-in-databases
+
+
+https://stackoverflow.com/questions/5331549/what-is-the-maximum-number-of-parameters-passed-to-in-query-in-mongodb
+
+https://docs.mongodb.com/manual/reference/limits/
+
+http://api.mongodb.com/python/1.9/api/pymongo/cursor.html
+
+https://stackoverflow.com/questions/10424078/pymongo-cursor-iteration
+
+https://stackoverflow.com/users/496445/jdi
+
+http://mongoengine.org/
+
+https://github.com/MongoEngine/mongoengine
+
+https://stackoverflow.com/questions/11390427/how-to-iterate-a-mongo-cursor-in-a-loop-in-python
+
+https://stackoverflow.com/questions/6680659/pymongo-cursor-iteration
+
+https://stackoverflow.com/questions/28968660/how-to-convert-a-pymongo-cursor-cursor-into-a-dict
+
+https://stackoverflow.com/questions/26549787/how-to-check-if-a-pymongo-cursor-has-query-results
+
+https://stackoverflow.com/questions/25126447/what-is-the-default-batchsize-in-pymongo
+
+http://api.mongodb.com/python/current/tutorial.html#bulk-inserts
+
+https://stackoverflow.com/questions/25553186/mongodb-and-pymongo-16mb-limit-on-document-size
+
+https://stackoverflow.com/questions/4667597/understanding-mongodb-bson-document-size-limit
+
+https://docs.mongodb.com/manual/reference/limits/
+
+https://stackoverflow.com/questions/22878743/how-to-split-dictionary-into-multiple-dictionaries-fast
+
+https://stackoverflow.com/questions/38987/how-to-merge-two-dictionaries-in-a-single-expression
+
+https://stackoverflow.com/questions/1781571/how-to-concatenate-two-dictionaries-to-create-a-new-one-in-python
+
+https://stackoverflow.com/questions/11011756/is-there-any-pythonic-way-to-combine-two-dicts-adding-values-for-keys-that-appe
+
+https://code.tutsplus.com/tutorials/how-to-merge-two-python-dictionaries--cms-26230
+
+http://www.dreamsyssoft.com/python-scripting-tutorial/create-simple-rest-web-service-with-python.php - Setting up web.py 
+
+https://pypi.python.org/pypi/setuptools#downloads
+
+http://www.varunpant.com/posts/how-to-setup-easy_install-on-windows
